@@ -102,19 +102,19 @@ streamlit run app.py
 ### 📸 Capturas de Tela
 
 #### 🏠 Tela Inicial (Desktop)
-![Tela Inicial](img/TelaInicial_Desktop.png)
+![Tela Inicial](https://github.com/flimaz/PratoDoDia/blob/main/img/TelaInicial_Desktop.png?raw=true)
 
 #### 🔎 Página de Busca (Desktop)
-![Buscar Refeição](img/Buscar_Desktop.png)
+![Buscar Refeição](https://github.com/flimaz/PratoDoDia/blob/main/img/Buscar_Desktop.png?raw=true)
 
 #### 📢 Página de Oferta (Mobile)
-![Oferecer Refeição](img/Oferecer_Mobile.png)
+![Oferecer Refeição](https://github.com/flimaz/PratoDoDia/blob/main/img/Oferecer_Mobile.png?raw=true)
 
 #### 📬 Avisos de Retirada (Mobile)
-![Avisos de Retirada](img/AvisosRetirada_Mobile.png)
+![Avisos de Retirada](https://github.com/flimaz/PratoDoDia/blob/main/img/AvisosRetirada_Mobile.png?raw=true)
 
 #### 💡 Sugestão Gerada pela IA
-![Sugestão da IA](img/SugestaoParecida.png)
+![Sugestão da IA](https://github.com/flimaz/PratoDoDia/blob/main/img/SugestaoParecida.png?raw=true)
 
 ---
 
