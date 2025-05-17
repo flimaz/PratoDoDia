@@ -133,12 +133,10 @@ Ofertas:
         with col_b:
             if st.button("❌ Recusar e registrar pedido"):
                 prompt = f"""
-Crie uma mensagem empática e solidária com base nesse pedido.
-Nome: {nome}
-Cidade: {cidade}
-Pedido: {descricao}
-Formato: [Cidade: X] Fulano precisa de Y.
-"""
+                Crie uma única frase no formato abaixo, sem mensagens adicionais, sem parágrafos extras:
+
+                Formato: [Cidade: {cidade}: {nome}] {nome} precisa de {descricao}.
+                """
                 resposta = model.generate_content(prompt)
                 resumo = resposta.text.strip()
 

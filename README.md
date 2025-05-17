@@ -18,12 +18,24 @@ A proposta era criar uma aplicação prática utilizando o poder dos modelos gen
 
 ## 🧠 Sobre o Geronimi
 
-O **Geronimi** é nosso assistente inteligente. Ele analisa as descrições inseridas por quem está oferecendo ou pedindo uma refeição e faz sugestões automáticas de quem pode ajudar quem.
+O Geronimi é o assistente inteligente do projeto, baseado no modelo Gemini 2.0 Flash. Ele atua como uma ponte solidária entre quem precisa e quem oferece comida, analisando os dados e sugerindo as melhores conexões possíveis com empatia e rapidez.
 
-Exemplo:
-> Sugiro ajudar João, pois ele precisa de arroz e você tem uma marmita com arroz.
+Funcionalidades principais do Geronimi:
+- 🤖 Sugestões automáticas de combinação: avalia pedidos e ofertas e sugere a melhor combinação com base na descrição e na cidade.
 
-Se não houver compatibilidade, a IA informa e a oferta ou pedido é salvo para futuras correspondências.
+- 🔍 Validação de ofertas: antes de permitir que uma oferta seja publicada, o Geronimi analisa se ela contém:
+
+- O tipo de comida oferecida.
+
+- Um local claro e seguro de retirada.
+
+- ⛔ Bloqueio de publicações incompletas: se a descrição não estiver adequada, a publicação não é permitida até ser corrigida.
+
+- 🤝 Mensagem personalizada de match: quando há compatibilidade, ele gera uma frase personalizada para incentivar a doação.
+
+- 📝 Geração automática de registros: caso não haja combinações no momento, o pedido ou oferta é salvo de forma clara e padronizada.
+
+O Geronimi foi projetado para atuar com empatia, acessibilidade e agilidade, criando uma experiência simples e humana no processo de ajudar o próximo.
 
 ---
 
@@ -44,7 +56,7 @@ Se não houver compatibilidade, a IA informa e a oferta ou pedido é salvo para 
 1. Clone o repositório:
 ```bash
 git clone https://github.com/flimaz/PratoDoDia
-cd prato-do-dia
+cd PratoDoDia
 ```
 
 2. Crie um ambiente virtual:
@@ -84,6 +96,25 @@ streamlit run app.py
 ├── requirements.txt
 └── README.md
 ```
+
+---
+
+### 📸 Capturas de Tela
+
+#### 🏠 Tela Inicial (Desktop)
+![Tela Inicial](img/TelaInicial_Desktop.png)
+
+#### 🔎 Página de Busca (Desktop)
+![Buscar Refeição](img/Buscar_Desktop.png)
+
+#### 📢 Página de Oferta (Mobile)
+![Oferecer Refeição](img/Oferecer_Mobile.png)
+
+#### 📬 Avisos de Retirada (Mobile)
+![Avisos de Retirada](img/AvisosRetirada_Mobile.png)
+
+#### 💡 Sugestão Gerada pela IA
+![Sugestão da IA](img/SugestaoParecida.png)
 
 ---
 
