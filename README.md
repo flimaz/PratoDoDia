@@ -1,5 +1,7 @@
 # 🥣 Prato do Dia – Sistema de Doações de Refeições com IA
 
+[🚀 Acesse a aplicação aqui](https://pratododia.onrender.com/)
+
 Bem-vindo ao **Prato do Dia**, uma plataforma solidária que conecta pessoas que precisam de refeições com doadores dispostos a compartilhar um prato de comida. Este projeto utiliza **Streamlit** e **Gemini AI (apelidado de Geronimi)** para sugerir automaticamente as melhores combinações entre ofertas e pedidos.
 
 ## 🧭 Contexto do Projeto
