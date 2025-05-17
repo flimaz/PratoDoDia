@@ -1,0 +1,51 @@
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Diretórios de ambientes virtuais
+.venv/
+venv/
+env/
+
+# Arquivos de configuração do ambiente
+.env
+.env.*
+
+# Arquivos de log
+*.log
+
+# Cache de pacotes
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Cache de testes e cobertura
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Diretórios de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Banco de dados local
+db/
+*.db
+
+# Arquivos temporários
+*.bak
+*.tmp
+*.swp
